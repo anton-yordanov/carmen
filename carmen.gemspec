@@ -2,6 +2,7 @@
 
 $LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
 require "carmen/version"
+require 'rubygem'
 
 Gem::Specification.new do |s|
   s.name = %q{carmen}
@@ -11,7 +12,7 @@ Gem::Specification.new do |s|
   s.authors = ["Jim Benton"]
   s.email = %q{jim@autonomousmachine.com}
   s.homepage = %q{http://github.com/jim/carmen}
-  s.require 'rubygem'
+  
   #s.required_rubygems_version = '>= 1.3.6'
   s.require_paths = ["lib"]
   s.files = Dir.glob("{lib,iso_data,locale,spec_data}/**/*") + %w(MIT-LICENSE README.md CHANGELOG.md)
