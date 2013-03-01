@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
   # s.add_development_dependency('minitest', "[=, 2.6.1]")
   # s.add_development_dependency('nokogiri')
   # s.add_development_dependency('rake')
-  s.add_dependency('unicode_utils')
+  #s.add_dependency('unicode_utils')
 end
