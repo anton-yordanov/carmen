@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ["Jim Benton"]
   s.email = %q{jim@autonomousmachine.com}
   s.homepage = %q{http://github.com/jim/carmen}
-  s.required 'rubygems'
+  s.require 'rubygem'
   #s.required_rubygems_version = '>= 1.3.6'
   s.require_paths = ["lib"]
   s.files = Dir.glob("{lib,iso_data,locale,spec_data}/**/*") + %w(MIT-LICENSE README.md CHANGELOG.md)
